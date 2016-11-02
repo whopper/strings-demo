@@ -87,7 +87,8 @@
   
   <div class="docstring">
     <div class="discussion">
-      <p>Adds two integers together.</p>
+      
+<p>Adds two integers together.</p>
 
     </div>
   </div>
@@ -97,10 +98,14 @@
     <p class="tag_title">Examples:</p>
     
       
-        <p class="example_title"><div class='inline'><p>Example of adding two integers.</p>
+        <p class="example_title"><div class='inline'>
+<p>Test</p>
 </div></p>
       
-      <pre class="example code"><code>demo::add(1, 2) =&gt; 3</code></pre>
+      <pre class="example code"><code>$content = example(&#39;world&#39;)
+if $content == &#39;world&#39; {
+  include world
+}</code></pre>
     
   </div>
 
@@ -117,7 +122,10 @@
       
       
         &mdash;
-        <div class='inline'><p>The first integer to add.</p>
+        <div class='inline'>
+<p>The first integer to add. This is meant to be a continuation of the above
+parameter. But what happens when the description is just way too
+alalalalalala long? This!</p>
 </div>
       
     </li>
@@ -132,7 +140,8 @@
       
       
         &mdash;
-        <div class='inline'><p>The second integer to add.</p>
+        <div class='inline'>
+<p>The second integer to add.</p>
 </div>
       
     </li>
@@ -150,7 +159,8 @@
       
       
         &mdash;
-        <div class='inline'><p>Returns the sum of x and y.</p>
+        <div class='inline'>
+<p>Returns the sum of x and y.</p>
 </div>
       
     </li>
@@ -164,12 +174,12 @@
         <pre class="lines">
 
 
-7
-8
-9</pre>
+13
+14
+15</pre>
       </td>
       <td>
-        <pre class="code"><span class="info file"># File 'functions/add.pp', line 7</span>
+        <pre class="code"><span class="info file"># File 'functions/add.pp', line 13</span>
 
 function demo::add(Integer $x, Integer $y) {
   $x + $y
@@ -183,9 +193,9 @@ function demo::add(Integer $x, Integer $y) {
 </div>
 
       <div id="footer">
-  Generated on Thu Oct 13 11:45:24 2016 by
+  Generated on Wed Nov  2 15:35:53 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.5 (ruby-2.0.0).
+  0.9.5 (ruby-2.1.6).
 </div>
 
     </div>
